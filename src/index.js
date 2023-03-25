@@ -7,6 +7,8 @@ import LandingPage from './pages/landingpage'
 import About from './pages/subSection'
 import Destination from './components/destinations/destination';
 import BeachDestination from './components/beachDestination/beachDestination';
+import bg1 from '../src/images/bg.png'
+import bg2 from '../src/images/second.webp'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -15,11 +17,11 @@ import reportWebVitals from './reportWebVitals';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Header element={<Destination></Destination>}><LandingPage /></Header>,
+    element: <Header element={<Destination></Destination>}  bgImg={bg1} ><LandingPage /></Header>,
   },
   {
     path: "/About",
-    element: <Header element={<BeachDestination/>}><About />  </Header>,
+    element: <Header element={<BeachDestination/> } bgImg={bg2}  ><About />  </Header>,
   },
   
 ]);

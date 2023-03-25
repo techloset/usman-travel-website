@@ -27,15 +27,15 @@ export default ()=> {
       ]
     };
     return (
-        <div className=' grid   grid-cols-10 ' > 
+        <div className=' grid   grid-cols-10 mt-14 ' > 
       <div className=" col-start-2 col-end-11 !overflow-hidden  ">
         <h2 className="   font-bold text-[32px] leading-[37px] mb-5">Offers</h2>
-<div className="w-[100%] sm:w-[105%] !mr-20">
+<div className="w-[100%] sm:w-[105%] !mr-20 ">
 
         <Slider {...settings}>
-            <div className=' '>
+            <div className='mb-5 '>
 
-       <div className="flex flex-col md:flex-row gap-5 justify-center items-center mr-5 p-6 rounded-2xl " style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
+       <div className="flex flex-col md:flex-row gap-5 justify-center items-center ml-3 mr-5 p-6 rounded-2xl " style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
         <img src={img1} className='rounded-xl w-[100%] md:w-[50%]' alt="" />
         <div className="flex flex-col ">
             <p className="text-black text-opacity-50">Domestic Flights</p>
@@ -49,7 +49,7 @@ export default ()=> {
           </div>
             <div className=' '>
 
-       <div className="flex gap-5 mr-5 flex-col md:flex-row  justify-center items-center p-6  rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
+       <div className="flex gap-5 ml-3 mr-5 flex-col md:flex-row  justify-center items-center p-6  rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
         <img src={img2} className='rounded-xl w-[100%] md:w-[50%]' alt="" />
         <div className="flex flex-col ">
             <p className="text-black text-opacity-50">Domestic Flights</p>
@@ -63,7 +63,7 @@ export default ()=> {
           </div>
             <div className=' '>
 
-       <div className="flex gap-5 flex-col md:flex-row  justify-center items-center mr-5 p-6  rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
+       <div className="flex gap-5 flex-col md:flex-row  justify-center items-center ml-3 mr-5 p-6  rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
         <img src={img2} className='rounded-xl w-[100%] md:w-[50%]' alt="" />
         <div className="flex flex-col ">
             <p className="text-black text-opacity-50">Domestic Flights</p>

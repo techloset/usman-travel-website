@@ -7,6 +7,8 @@ import img5 from '../../images/subsection/2.png'
 import img6 from '../../images/subsection/3.png'
 import img7 from '../../images/subsection/4.png'
 import vector from '../../images/subsection/Vector.png'
+import heart from '../../images/Vector.svg'
+
 import Slider from "react-slick";
 
 const beachDestination = () => {
@@ -59,14 +61,14 @@ const beachDestination = () => {
 
 <Slider {...settings}>
 
-<div className=' sm:max-w-[342px] '>
-
-<div className="flex gap-5 bg-white justify-center items-center flex-col mr-6  p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
+<div className='  mb-5 '>
+<div className="relative flex gap-5 bg-white justify-center items-center flex-col mr-6 ml-2  p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
+<img src={heart} alt="" className='absolute right-[7%] top-[5%]' />
 <img src={img1} className='rounded-xl w-[100%] h-[200px]' alt="" />
 <div className='flex justify-between w-full'>
 <p className='text-[24px] leading-[30px]
 '>Val di Funes</p>
-<div className='flex justify-center items-center'>
+<div className='flex justify-center items-center gap-3'>
 <img src={vector} alt="" />
 <p className='text-[24px] leading-[30px]'>4.7</p>
 </div>
@@ -77,15 +79,15 @@ const beachDestination = () => {
 <p className='text-[12px]'>2 Flights</p>
 </div>
 <div className='flex flex-col items-center justify-center'>
-<img src={img4} alt="" />
+<img src={img5} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
 <div className='flex flex-col items-center justify-center'>
-<img src={img4} alt="" />
+<img src={img6} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
 <div className='flex flex-col items-center justify-center'>
-<img src={img4} alt="" />
+<img src={img7} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
 </div>
@@ -109,14 +111,65 @@ Curious Corner
 </div>
 </div> 
 
-<div className=' sm:max-w-[342px]  '>
+<div className='   '>
 
-<div className="flex gap-5 bg-white justify-center items-center flex-col mr-6  p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
-<img src={img1} className='rounded-xl w-[100%] h-[200px]' alt="" />
+<div className="flex gap-5 bg-white relative justify-center items-center flex-col mr-6 ml-2  p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
+<img src={img2} className='rounded-xl w-[100%] h-[200px]' alt="" />
+<img src={heart} alt="" className='absolute right-[7%] top-[5%]' />
+
 <div className='flex justify-between w-full'>
 <p className='text-[24px] leading-[30px]
 '>Val di Funes</p>
-<div className='flex justify-center items-center'>
+<div className='flex justify-center items-center gap-3'>
+<img src={vector} alt="" />
+<p className='text-[24px] leading-[30px]'>4.7</p>
+</div>
+</div>
+<div className='flex justify-between w-full text-black text-opacity-50'>
+<div className='flex flex-col items-center justify-center'>
+<img src={img4} alt="" />
+<p className='text-[12px]'>2 Flights</p>
+</div>
+<div className='flex flex-col items-center justify-center'>
+<img src={img4} alt="" />
+<p className='text-[12px]'>2 Flights</p>
+</div>
+<div className='flex flex-col items-center justify-center'>
+<img src={img5} alt="" />
+<p className='text-[12px]'>2 Flights</p>
+</div>
+<div className='flex flex-col items-center justify-center'>
+<img src={img6} alt="" />
+<p className='text-[12px]'>2 Flights</p>
+</div>
+</div>
+<ul className='text-black text-[15px] self-start text-opacity-50 list-disc flex flex-col pl-4 '>
+<li className=''>
+Tour combo with return airport transfer
+</li>
+<li>
+City Tour
+</li>
+<li>
+Curious Corner
+</li>
+
+</ul>
+<div className='self-start relative'>
+<del className='absolute mt-1'>₹88,952</del>
+<span className='text-[24px] ml-20 mr-[2px] font-bold'>₹88,952</span>
+<sub className='text-[12px]  text-black text-opacity-50'>Per person</sub>
+</div>
+</div>
+</div>
+<div className='   '>
+
+<div className="flex gap-5 bg-white  justify-center items-center flex-col mr-6 ml-2  p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
+<img src={img3} className='rounded-xl w-[100%] h-[200px]' alt="" />
+<div className='flex justify-between w-full'>
+<p className='text-[24px] leading-[30px]
+'>Val di Funes</p>
+<div className='flex justify-center items-center gap-3'>
 <img src={vector} alt="" />
 <p className='text-[24px] leading-[30px]'>4.7</p>
 </div>
@@ -158,63 +211,14 @@ Curious Corner
 </div>
 </div>
 </div>
-<div className=' sm:max-w-[342px]  '>
+<div className='   '>
 
-<div className="flex gap-5 bg-white  justify-center items-center flex-col mr-6  p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
+<div className="flex gap-5 justify-center bg-white items-center flex-col mr-6 ml-2  p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
 <img src={img1} className='rounded-xl w-[100%] h-[200px]' alt="" />
 <div className='flex justify-between w-full'>
 <p className='text-[24px] leading-[30px]
 '>Val di Funes</p>
-<div className='flex justify-center items-center'>
-<img src={vector} alt="" />
-<p className='text-[24px] leading-[30px]'>4.7</p>
-</div>
-</div>
-<div className='flex justify-between w-full text-black text-opacity-50'>
-<div className='flex flex-col items-center justify-center'>
-<img src={img4} alt="" />
-<p className='text-[12px]'>2 Flights</p>
-</div>
-<div className='flex flex-col items-center justify-center'>
-<img src={img4} alt="" />
-<p className='text-[12px]'>2 Flights</p>
-</div>
-<div className='flex flex-col items-center justify-center'>
-<img src={img4} alt="" />
-<p className='text-[12px]'>2 Flights</p>
-</div>
-<div className='flex flex-col items-center justify-center'>
-<img src={img4} alt="" />
-<p className='text-[12px]'>2 Flights</p>
-</div>
-</div>
-<ul className='text-black text-[15px] self-start text-opacity-50 list-disc flex flex-col pl-4 '>
-<li className=''>
-Tour combo with return airport transfer
-</li>
-<li>
-City Tour
-</li>
-<li>
-Curious Corner
-</li>
-
-</ul>
-<div className='self-start relative'>
-<del className='absolute mt-1'>₹88,952</del>
-<span className='text-[24px] ml-20 mr-[2px] font-bold'>₹88,952</span>
-<sub className='text-[12px]  text-black text-opacity-50'>Per person</sub>
-</div>
-</div>
-</div>
-<div className=' sm:max-w-[342px]  '>
-
-<div className="flex gap-5 justify-center bg-white items-center flex-col mr-6  p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
-<img src={img1} className='rounded-xl w-[100%] h-[200px]' alt="" />
-<div className='flex justify-between w-full'>
-<p className='text-[24px] leading-[30px]
-'>Val di Funes</p>
-<div className='flex justify-center items-center'>
+<div className='flex justify-center items-center gap-3'>
 <img src={vector} alt="" />
 <p className='text-[24px] leading-[30px]'>4.7</p>
 </div>
@@ -256,14 +260,14 @@ Curious Corner
 </div>
 </div>
 </div>
-<div className=' sm:max-w-[342px]  '>
+<div className='   '>
 
-<div className="flex gap-5 justify-center bg-white items-center flex-col mr-6  p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
+<div className="flex gap-5 justify-center bg-white items-center flex-col mr-6 ml-2  p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
 <img src={img1} className='rounded-xl w-[100%] h-[200px]' alt="" />
 <div className='flex justify-between w-full'>
 <p className='text-[24px] leading-[30px]
 '>Val di Funes</p>
-<div className='flex justify-center items-center'>
+<div className='flex justify-center items-center gap-3'>
 <img src={vector} alt="" />
 <p className='text-[24px] leading-[30px]'>4.7</p>
 </div>
@@ -305,14 +309,14 @@ Curious Corner
 </div>
 </div>
 </div>
-<div className='min-w-[320px] sm:max-w-[342px]  '>
+<div className='   '>
 
-<div className="flex gap-5 justify-center bg-white items-center flex-col mr-6  p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
+<div className="flex gap-5 justify-center bg-white items-center flex-col mr-6 ml-2  p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
 <img src={img1} className='rounded-xl w-[100%] h-[200px]' alt="" />
 <div className='flex justify-between w-full'>
 <p className='text-[24px] leading-[30px]
 '>Val di Funes</p>
-<div className='flex justify-center items-center'>
+<div className='flex justify-center items-center gap-3'>
 <img src={vector} alt="" />
 <p className='text-[24px] leading-[30px]'>4.7</p>
 </div>

@@ -7,6 +7,7 @@ import img4 from '../../images/subsection/1.png'
 import img3 from '../../images/subsection/2.png'
 import img11 from '../../images/subsection/3.png'
 import img22 from '../../images/subsection/4.png'
+import heart from '../../images/Vector.svg'
 
 import Slider from 'react-slick'
 const viewed = () => {
@@ -30,7 +31,7 @@ const viewed = () => {
               }
             },
             {
-              breakpoint: 640,
+              breakpoint: 600,
               settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
@@ -44,7 +45,7 @@ const viewed = () => {
           ]}
   return (
     <div className='relative'>
-         <div className="h-[660px] mt-72 md:mt-52 lg:mt-20  ">
+         <div className="h-[660px] mt-64    ">
 
 <div className='  grid  grid-rows-TwoRows  grid-cols-10 ' > 
 <div className=" col-start-2 col-end-11  row-start-2  ">
@@ -53,14 +54,16 @@ const viewed = () => {
 
 <Slider {...settings}>
 
-<div className=' sm:max-w-[342px]'>
+<div className=' mb-5 '>
 
-<div className="flex gap-5 justify-center items-center flex-col mr-6 p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
+<div className="flex gap-5 justify-center items-center relative flex-col mr-6 p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
 <img src={img1} className='rounded-xl w-[100%] h-[200px]' alt="" />
+<img src={heart} alt="" className='absolute right-[7%] top-[6%]' />
+ 
 <div className='flex justify-between w-full'>
 <p className='text-[24px] leading-[30px]
 '>Val di Funes</p>
-<div className='flex justify-center items-center'>
+<div className='flex justify-center items-center gap-3'>
 <img src={vector} alt="" />
 <p className='text-[24px] leading-[30px]'>4.7</p>
 </div>
@@ -103,14 +106,14 @@ Curious Corner
 </div>
 </div> 
 
-<div className=' sm:max-w-[342px]'>
+ <div className=' mb-5'>
 
 <div className="flex gap-5 justify-center items-center flex-col mr-6 p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
 <img src={img2} className='rounded-xl w-[100%] h-[200px]' alt="" />
 <div className='flex justify-between w-full'>
 <p className='text-[24px] leading-[30px]
 '>Val di Funes</p>
-<div className='flex justify-center items-center'>
+<div className='flex justify-center items-center gap-3'>
 <img src={vector} alt="" />
 <p className='text-[24px] leading-[30px]'>4.7</p>
 </div>
@@ -152,14 +155,14 @@ Curious Corner
 </div>
 </div>
 </div>
-<div className=' sm:max-w-[342px]'>
+ <div className=' mb-5'>
 
 <div className="flex gap-5 justify-center items-center flex-col mr-6 p-2  sm:p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
 <img src={img1} className='rounded-xl w-[100%] h-[200px]' alt="" />
 <div className='flex justify-between w-full'>
 <p className='text-[24px] leading-[30px]
 '>Val di Funes</p>
-<div className='flex justify-center items-center'>
+<div className='flex justify-center items-center gap-3'>
 <img src={vector} alt="" />
 <p className='text-[24px] leading-[30px]'>4.7</p>
 </div>

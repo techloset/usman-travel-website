@@ -53,7 +53,7 @@ export default ()=> {
         <Slider {...settings}>
             <div >
 
-        <div className='bg-center mr-5 bg-cover   h-[200px] rounded-sm flex justify-start items-end bg-no-repeat' 
+        <div className='bg-center mr-5 bg-cover   h-[200px] rounded-xl flex justify-start items-end bg-no-repeat' 
       style={{ backgroundImage: `url(${img1})` }}
       >
       <p className='mb-2 ml-2 font-medium text-[20px] md:text-[24px]'>
@@ -64,7 +64,7 @@ export default ()=> {
           </div>
           <div>
 
-<div className='bg-center mr-5    h-[200px] bg-cover  rounded-sm flex justify-start items-end bg-no-repeat' 
+<div className='bg-center mr-5    h-[200px] bg-cover  rounded-xl flex justify-start items-end bg-no-repeat' 
 style={{ backgroundImage: `url(${img2})` }}
 >
 <p className='mb-2 ml-2 font-medium text-[20px] md:text-[24px]'>
@@ -75,7 +75,7 @@ Apartments
   </div>
   <div className='  '>
 
-<div className='bg-center  mr-5   h-[200px]  bg-cover  rounded-sm  flex justify-start items-end bg-no-repeat' 
+<div className='bg-center  mr-5   h-[200px]  bg-cover  rounded-xl  flex justify-start items-end bg-no-repeat' 
 style={{ backgroundImage: `url(${img2})` }}
 >
  <p className='mb-2 ml-2 font-medium text-[20px] md:text-[24px]'>
@@ -85,7 +85,7 @@ style={{ backgroundImage: `url(${img2})` }}
 </div>
   </div>  <div className='  '>
 
-<div className='bg-center mr-5    h-[200px] bg-cover  rounded-sm flex justify-start items-end bg-no-repeat' 
+<div className='bg-center mr-5    h-[200px] bg-cover  rounded-xl flex justify-start items-end bg-no-repeat' 
 style={{ backgroundImage: `url(${img4})` }}
 >
  <p className='mb-2 ml-2 font-medium text-[20px] md:text-[24px]'>
@@ -96,7 +96,7 @@ style={{ backgroundImage: `url(${img4})` }}
   </div>
     <div className='  '>
 
-<div className='bg-center mr-5    h-[200px] bg-cover   rounded-sm flex justify-start items-end bg-no-repeat' 
+<div className='bg-center mr-5    h-[200px] bg-cover   rounded-xl flex justify-start items-end bg-no-repeat' 
 style={{ backgroundImage: `url(${img4})` }}
 >
  <p className='mb-2 ml-2 font-medium text-[20px] md:text-[24px]'>
@@ -109,11 +109,11 @@ style={{ backgroundImage: `url(${img4})` }}
 
     </div>
     <div  className="mt-20 rounded-2xl bg-center grid grid-cols-12 bg-cover   text-white bg-no-repeat h-[395px] w-[90%] md:w-[80%]" style={{backgroundImage:`url(${camera})`}}>
-        <p className="text-[30px] md:text-[40px] lg:text-[56px] self-end col-start-2 lg:col-start-3 col-end-12 font-bold ">
+        <p className="text-[30px] md:text-[40px] lg:text-[56px] self-end col-start-2  col-end-12 font-bold ">
         Plan your trip with travel  expert
 
         </p>
-        <p className="text-[22px] lg:text-[32px] col-start-2 lg:col-start-3 col-end-11 self-start mt-10 leading-[40px]">
+        <p className="text-[22px] lg:text-[32px] col-start-2  col-end-11 self-start mt-10 leading-[40px]">
         Our professional advisors can craft your perfect itinerary
         </p>
     </div>

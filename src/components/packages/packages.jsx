@@ -63,7 +63,7 @@ const viewed = () => {
 
 <Slider {...settings}>
 
-<div className=' sm:max-w-[342px]'>
+<div className=' mb-5'>
 
 <div className="flex gap-5 justify-center items-center flex-col mr-6 p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
 <img src={img1} className='rounded-xl w-[100%] h-[200px]' alt="" />
@@ -112,7 +112,7 @@ Curious Corner
 </div>
 </div>
 </div> 
-<div className=' sm:max-w-[342px]'>
+<div className=' mb-5'>
 
 <div className="flex gap-5 justify-center items-center flex-col mr-6 p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
 <img src={img1} className='rounded-xl w-[100%] h-[200px]' alt="" />
@@ -161,7 +161,7 @@ Curious Corner
 </div>
 </div>
 </div> 
-<div className=' sm:max-w-[342px]'>
+<div className=' mb-5'>
 
 <div className="flex gap-5 justify-center items-center flex-col mr-6 p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
 <img src={img1} className='rounded-xl w-[100%] h-[200px]' alt="" />
@@ -211,7 +211,7 @@ Curious Corner
 </div>
 </div> 
 
-<div className=' sm:max-w-[342px]'>
+<div className=' mb-5'>
 
 <div className="flex gap-5 justify-center items-center flex-col mr-6 p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
 <img src={img2} className='rounded-xl w-[100%] h-[200px]' alt="" />
@@ -260,7 +260,7 @@ Curious Corner
 </div>
 </div>
 </div>
-<div className=' sm:max-w-[342px]'>
+<div className=' mb-5'>
 
 <div className="flex gap-5 justify-center items-center flex-col mr-6 p-2  sm:p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
 <img src={img1} className='rounded-xl w-[100%] h-[200px]' alt="" />

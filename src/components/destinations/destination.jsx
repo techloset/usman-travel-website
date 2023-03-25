@@ -1,9 +1,9 @@
 import React from "react";
-import bgImg from "../../images/h.png";
-// import bgImg1 from "../../images/bgImg.png";
+import bgImg1 from "../../images/h1.webp";
+import bgImg2 from "../../images/hh.webp";
+import bgImg3 from "../../images/hhh.webp";
 import "./dest.css";
 import Slider from "react-slick";
-import { useRef } from "react";
 
 export default () => {
   const settings = {
@@ -52,47 +52,48 @@ export default () => {
     ],
   };
   return (
-    <div className=" row-start-6 col-start-2 col-end-11">
+    
+    <div className=" row-start-6 col-start-2 md:mt-10 col-end-11">
       <div className="  text-white !overflow-hidden  ">
         <h2 className="  font-bold  text-[22px] md:text-[32px] leading-[37pxx]  mb-10 text-black lg:text-white">
           Top Vacation Destinations
         </h2>
-        <div className="mr-6 w-[100%] sm:w-[118%] md:w-[108%]">
+        <div className="mr-8  w-[100%] sm:w-[118%] md:w-[108%]">
           <Slider {...settings}>
             <div className="  ">
            
-              <img src={bgImg} className='pr-6 ' alt="" />
-                <p className="mb-2 mt-[-40px] z-10 ml-2 font-medium  md:text-[24px]">
+              <img src={bgImg1} className='pr-6  ' alt="" />
+                <p className="mb-10 mt-[-40px] z-10 ml-3 font-medium  md:text-[24px]">
                   Bali, Indonesia
                 </p>
             </div>
             <div className="   ">
            
-              <img src={bgImg} className='pr-6  ' alt="" />
-                <p className="mb-2 mt-[-40px] z-10 ml-2 font-medium  md:text-[24px]">
-                  Bali, Indonesia
+              <img src={bgImg2} className='pr-6   ' alt="" />
+                <p className="mb-10 mt-[-40px] z-10 ml-3 font-medium  md:text-[24px]">
+                Kerry, Ireland
                 </p>
             </div>
             <div className="   ">
             
-              <img src={bgImg} className='pr-6 ' alt="" />
-                <p className="mb-2 mt-[-40px] z-10 ml-2 font-medium  md:text-[24px]">
-                  Bali, Indonesia
+              <img src={bgImg3} className='pr-6  ' alt="" />
+                <p className="mb-10 mt-[-40px] z-10 ml-3 font-medium  md:text-[24px]">
+                Sydney, Australia
                 </p>
          
             </div>
             <div className="  ">
             
-              <img src={bgImg} className='pr-6 ' alt="" />
-                <p className="mb-2 mt-[-40px] z-10 ml-2 font-medium  md:text-[24px]">
-                  Bali, Indonesia
+              <img src={bgImg1} className='pr-6  ' alt="" />
+                <p className="mb-10 mt-[-40px] z-10 ml-3 font-medium  md:text-[24px]">
+                Paris, France
                 </p>
          
             </div>
             <div className="   ">
             
-              <img src={bgImg} className='pr-6 ' alt="" />
-                <p className="mb-2 mt-[-40px] z-10 ml-2 font-medium  md:text-[24px]">
+              <img src={bgImg2} className='pr-6  ' alt="" />
+                <p className="mb-10 mt-[-40px] z-10 ml-3 font-medium  md:text-[24px]">
                   Bali, Indonesia
                 </p>
          

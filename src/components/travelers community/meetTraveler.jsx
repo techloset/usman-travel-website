@@ -23,7 +23,7 @@ export default ()=> {
             }
           },
           {
-            breakpoint: 550,
+            breakpoint: 640,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
@@ -46,11 +46,11 @@ export default ()=> {
       <div className='w-[100%] sm:w-[110%] mr-5'>
 
         <Slider {...settings}>
-        <div className=' '>
+        <div className='mb-5 '>
 
-<div className="flex gap-5 flex-col mr-6  sm:p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
+<div className="flex gap-5 flex-col ml-2 mr-6  p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
  <img src={img1} className='rounded-xl w-[100%] h-[200px]' alt="" />
- <div>
+ <div> 
      <p className="text-[24px] ">India</p>
      <p className="text-black text-opacity-50 w-[90%] sm:w-auto">Travel community
 </p>
@@ -61,10 +61,10 @@ export default ()=> {
    </div>
         <div className=' '>
 
-<div className="flex gap-5 flex-col mr-6  sm:p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
+<div className="flex gap-5 flex-col ml-2 mr-6  p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
  <img src={img2} className='rounded-xl  w-[100%] h-[200px] ' alt="" />
- <div>
-     <p className="text-[24px] ">India</p>
+ <div> 
+     <p className="text-[24px] ">Travel Talk</p>
      <p className="text-black text-opacity-50">Travel community
 </p>
      <p className=" text-black text-opacity-50">155,073 travelers</p>
@@ -74,10 +74,10 @@ export default ()=> {
    </div>
         <div className=' '>
 
-<div className="flex gap-5 flex-col mr-6  sm:p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
+<div className="flex gap-5 flex-col ml-2 mr-6  p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
  <img src={img1} className='rounded-xl  w-[100%] h-[200px]' alt="" />
- <div>
-     <p className="text-[24px] ">India</p>
+ <div> 
+     <p className="text-[24px] ">Beach</p>
      <p className="text-black text-opacity-50">Travel community
 </p>
      <p className=" text-black text-opacity-50">155,073 travelers</p>
@@ -87,10 +87,10 @@ export default ()=> {
    </div>
         <div className=' '>
 
-<div className="flex gap-5 flex-col mr-6  sm:p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
+<div className="flex gap-5 flex-col ml-2 mr-6  p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
  <img src={img2} className='rounded-xl  w-[100%] h-[200px]' alt="" />
- <div>
-     <p className="text-[24px] text-black">India</p>
+ <div> 
+     <p className="text-[24px] text-black">Mountains</p>
      <p className="text-black text-opacity-50">Travel community
 </p>
      <p className=" text-black text-opacity-50">155,073 travelers</p>
@@ -100,9 +100,9 @@ export default ()=> {
    </div>
         <div className=' '>
 
-<div className="flex gap-5 flex-col mr-6  sm:p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
+<div className="flex gap-5 flex-col ml-2 mr-6  p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
  <img src={img2} className='rounded-xl  w-[100%] h-[200px]' alt="" />
- <div>
+ <div> 
      <p className="text-[24px] ">India</p>
      <p className="text-black text-opacity-50">Travel community
 </p>
