@@ -46,9 +46,9 @@ const header = ({ children, element, bgImg}) => {
             </ul>
           </nav>
           <header className="  grid grid-cols-11 sm:grid-cols-10  grid-rows-8 grid-flow-col max-w-full h-full">
-            <div className="text-[32px] md:text-[62px] mb-10 md:mb-3 self-center  lg:text-[72px]  font-black col-start-2 col-end-10 lg:col-end-8 row-start-1 row-end-3   text-white ">
-              <p className="whitespace-nowrap mr-3 flex  "> The whole world </p>{" "}
-              <p>awaits.</p>
+            <div className="text-[32px] sm:text-[62px] mb-4 sm:mb-10 self-center  lg:text-[72px]  font-black col-start-2 col-end-10 lg:col-end-8 row-start-1 row-end-3   text-white ">
+              <p className="whitespace-nowrap mr-3 flex  sm:leading-[5.125rem]"> The whole world </p>{" "}
+              <p className="sm:leading-[5.125rem]">awaits.</p>
             </div>
 
             <div className={`rounded-2xl row-start-3  col-start-2 col-end-[-1] sm:col-end-10  flex flex-col mr-4 sm:mr-0 lg:grid grid-cols-12 grid-rows-1 lg:justify-center  lg:h-[60px] lg:items-center text-opacity-70  text-white ${window.location.pathname=='/About'?"lg:bg-opacity-10":'lg:bg-opacity-40'}  lg:bg-white lg:bg-backdrop-filter lg:backdrop-blur-md`}>

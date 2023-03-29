@@ -63,21 +63,21 @@ export default () => {
             <div className="  ">
            
               <img src={bgImg1} className='pr-6  ' alt="" />
-                <p className="mb-10 mt-[-40px] z-10 ml-3 font-medium  md:text-[24px]">
+                <p className="mb-10 mt-[-50px] z-10 ml-6 font-medium  md:text-[24px]">
                   Bali, Indonesia
                 </p>
             </div>
             <div className="   ">
            
               <img src={bgImg2} className='pr-6   ' alt="" />
-                <p className="mb-10 mt-[-40px] z-10 ml-3 font-medium  md:text-[24px]">
+                <p className="mb-10 mt-[-50px] z-10 ml-6 font-medium  md:text-[24px]">
                 Kerry, Ireland
                 </p>
             </div>
             <div className="   ">
             
               <img src={bgImg3} className='pr-6  ' alt="" />
-                <p className="mb-10 mt-[-40px] z-10 ml-3 font-medium  md:text-[24px]">
+                <p className="mb-10 mt-[-50px] z-10 ml-6 font-medium  md:text-[24px]">
                 Sydney, Australia
                 </p>
          
@@ -85,7 +85,7 @@ export default () => {
             <div className="  ">
             
               <img src={bgImg1} className='pr-6  ' alt="" />
-                <p className="mb-10 mt-[-40px] z-10 ml-3 font-medium  md:text-[24px]">
+                <p className="mb-10 mt-[-50px] z-10 ml-6 font-medium  md:text-[24px]">
                 Paris, France
                 </p>
          
@@ -93,7 +93,7 @@ export default () => {
             <div className="   ">
             
               <img src={bgImg2} className='pr-6  ' alt="" />
-                <p className="mb-10 mt-[-40px] z-10 ml-3 font-medium  md:text-[24px]">
+                <p className="mb-10 mt-[-50px] z-10 ml-6 font-medium  md:text-[24px]">
                   Bali, Indonesia
                 </p>
          

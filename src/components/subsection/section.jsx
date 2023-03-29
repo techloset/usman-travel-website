@@ -15,10 +15,17 @@ export default ()=> {
   
     return ( 
         <>
+
    <RecentlyViewedSection></RecentlyViewedSection>
+        <div className='w-full pb-4 overflow-hidden'>
+
    <Packages></Packages>
+   </div>
+   <div className='w-full  pb-4  overflow-hidden'>
   
    <Freebies></Freebies>
+   </div>
+
       </>
 
 

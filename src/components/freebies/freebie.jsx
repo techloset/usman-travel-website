@@ -62,7 +62,7 @@ const viewed = () => {
 
 <Slider {...settings}>
 
-<div className=' '>
+<div className=' mb-5'>
 
 <div className="flex gap-5 justify-center items-center flex-col mr-6 p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
     
@@ -76,19 +76,19 @@ const viewed = () => {
 </div>
 </div>
 <div className='flex justify-between w-full text-black text-opacity-50'>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img11} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img22} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img3} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img4} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
@@ -112,7 +112,7 @@ Curious Corner
 </div>
 </div>
 </div> 
-<div className=' '>
+<div className=' mb-5 '>
 
 <div className="flex gap-5 justify-center items-center flex-col mr-6 p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
 <img src={img1} className='rounded-xl w-[100%] h-[200px]' alt="" />
@@ -125,19 +125,19 @@ Curious Corner
 </div>
 </div>
 <div className='flex justify-between w-full text-black text-opacity-50'>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img11} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img22} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img3} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img4} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
@@ -161,7 +161,7 @@ Curious Corner
 </div>
 </div>
 </div> 
-<div className=' '>
+<div className='  mb-5'>
 
 <div className="flex gap-5 justify-center items-center flex-col mr-6 p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
 <img src={img1} className='rounded-xl w-[100%] h-[200px]' alt="" />
@@ -174,19 +174,19 @@ Curious Corner
 </div>
 </div>
 <div className='flex justify-between w-full text-black text-opacity-50'>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img11} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img22} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img3} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img4} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
@@ -211,7 +211,7 @@ Curious Corner
 </div>
 </div> 
 
-<div className=' '>
+<div className='  mb-5'>
 
 <div className="flex gap-5 justify-center items-center flex-col mr-6 p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
 <img src={img2} className='rounded-xl w-[100%] h-[200px]' alt="" />
@@ -224,19 +224,19 @@ Curious Corner
 </div>
 </div>
 <div className='flex justify-between w-full text-black text-opacity-50'>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img11} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img22} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img3} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img4} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
@@ -260,7 +260,7 @@ Curious Corner
 </div>
 </div>
 </div>
-<div className=' '>
+<div className='  mb-5'>
 
 <div className="flex gap-5 justify-center items-center flex-col mr-6 p-2  sm:p-4 h-auto rounded-2xl" style={{boxShadow:'0px 4px 16px rgba(158, 158, 158, 0.25)'}}>
 <img src={img1} className='rounded-xl w-[100%] h-[200px]' alt="" />
@@ -273,19 +273,19 @@ Curious Corner
 </div>
 </div>
 <div className='flex justify-between w-full text-black text-opacity-50'>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img11} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img22} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img3} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img4} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>

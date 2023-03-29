@@ -2,3 +2,10 @@ body{
     width: 100%;
     overflow-x:hidden !important  ;
 }
+@font-face {
+    font-family: 'Helvetica';
+    src: url('./Font/Helvetica.ttf');
+}
+*{
+    font-family: 'Helvetica';
+}

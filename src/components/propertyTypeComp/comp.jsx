@@ -56,7 +56,7 @@ export default ()=> {
         <div className='bg-center mr-5 bg-cover   h-[200px] rounded-xl flex justify-start items-end bg-no-repeat' 
       style={{ backgroundImage: `url(${img1})` }}
       >
-      <p className='mb-2 ml-2 font-medium text-[20px] md:text-[24px]'>
+      <p className='mb-6 ml-6 font-medium text-[20px] md:text-[24px]'>
 
       Hotels
   </p>
@@ -67,7 +67,7 @@ export default ()=> {
 <div className='bg-center mr-5    h-[200px] bg-cover  rounded-xl flex justify-start items-end bg-no-repeat' 
 style={{ backgroundImage: `url(${img2})` }}
 >
-<p className='mb-2 ml-2 font-medium text-[20px] md:text-[24px]'>
+<p className='mb-6 ml-6 font-medium text-[20px] md:text-[24px]'>
 
 Apartments
   </p>
@@ -78,7 +78,7 @@ Apartments
 <div className='bg-center  mr-5   h-[200px]  bg-cover  rounded-xl  flex justify-start items-end bg-no-repeat' 
 style={{ backgroundImage: `url(${img2})` }}
 >
- <p className='mb-2 ml-2 font-medium text-[20px] md:text-[24px]'>
+ <p className='mb-6 ml-6 font-medium text-[20px] md:text-[24px]'>
 
  Resorts
   </p>
@@ -88,7 +88,7 @@ style={{ backgroundImage: `url(${img2})` }}
 <div className='bg-center mr-5    h-[200px] bg-cover  rounded-xl flex justify-start items-end bg-no-repeat' 
 style={{ backgroundImage: `url(${img4})` }}
 >
- <p className='mb-2 ml-2 font-medium text-[20px] md:text-[24px]'>
+ <p className='mb-6 ml-6 font-medium text-[20px] md:text-[24px]'>
 
  Villas
   </p>
@@ -99,7 +99,7 @@ style={{ backgroundImage: `url(${img4})` }}
 <div className='bg-center mr-5    h-[200px] bg-cover   rounded-xl flex justify-start items-end bg-no-repeat' 
 style={{ backgroundImage: `url(${img4})` }}
 >
- <p className='mb-2 ml-2 font-medium text-[20px] md:text-[24px]'>
+ <p className='mb-6 ml-6 font-medium text-[20px] md:text-[24px]'>
 
  Villas
   </p>

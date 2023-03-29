@@ -69,19 +69,19 @@ const viewed = () => {
 </div>
 </div>
 <div className='flex justify-between w-full text-black text-opacity-50'>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img11} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img22} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img3} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img4} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
@@ -119,19 +119,19 @@ Curious Corner
 </div>
 </div>
 <div className='flex justify-between w-full text-black text-opacity-50'>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img11} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img22} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img3} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img4} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
@@ -168,19 +168,19 @@ Curious Corner
 </div>
 </div>
 <div className='flex justify-between w-full text-black text-opacity-50'>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img11} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img22} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img3} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img4} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
@@ -213,16 +213,16 @@ Curious Corner
 </div>
 </div>
 </div>
-<div className='hidden  absolute  text-white left-[55%] bg-cover  bg-no-repeat bg-center pt-6 px-4 w-[40%] lg:w-auto box-border sm:flex flex-col gap-3  bottom-[-4%] rounded-2xl h-[77%]' style={{backgroundImage:`url(${image})`}}>
-<p className=' text-[24px] font-bold mt-6'>
+<div className='hidden  absolute  text-white px-6 left-[55%] bg-cover  bg-no-repeat bg-center   w-[40%] lg:w-auto box-border sm:flex flex-col gap-[14px]  bottom-[-6%] rounded-2xl h-[80%]' style={{backgroundImage:`url(${image})`}}>
+<p className=' text-[24px] font-bold mt-[50px] mb-[10px]'>
 Summer Bonanza!
 
 </p>
 <p>
-Enjoy confortable transfers in shared coaches
+Enjoy confortable transfers in shared  <br /> coaches
 </p>
 <p>Choose from 5 flights per week</p>
-<p>Get a free Rapid Antigen Test at selected hotels</p>
+<p>Get a free Rapid Antigen Test at <br /> selected hotels</p>
 </div>
     </div>
   )

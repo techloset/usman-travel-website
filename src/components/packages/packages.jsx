@@ -76,19 +76,19 @@ const viewed = () => {
 </div>
 </div>
 <div className='flex justify-between w-full text-black text-opacity-50'>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img11} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img22} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img3} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img4} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
@@ -125,19 +125,19 @@ Curious Corner
 </div>
 </div>
 <div className='flex justify-between w-full text-black text-opacity-50'>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img11} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img22} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img3} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img4} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
@@ -174,19 +174,19 @@ Curious Corner
 </div>
 </div>
 <div className='flex justify-between w-full text-black text-opacity-50'>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img11} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img22} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img3} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img4} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
@@ -224,19 +224,19 @@ Curious Corner
 </div>
 </div>
 <div className='flex justify-between w-full text-black text-opacity-50'>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img11} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img22} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img3} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img4} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
@@ -273,19 +273,19 @@ Curious Corner
 </div>
 </div>
 <div className='flex justify-between w-full text-black text-opacity-50'>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img11} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img22} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img3} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img4} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>

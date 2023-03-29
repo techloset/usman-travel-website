@@ -54,7 +54,8 @@ const beachDestination = () => {
        
       };
   return (
-
+<div className='w-full overflow-hidden'>
+  
 <div className="  mt-10  ">
 <h2 className="  font-bold  text-[18px] sm:text-[25px] lg:text-[32px] leading-[37px] mb-10 text-black lg:text-white">Popular Beach Destinations</h2>
 <div className='w-[100%] sm:w-[115%] sm:mr-5 overflow-x-hidden bg-transparent'>
@@ -74,19 +75,19 @@ const beachDestination = () => {
 </div>
 </div>
 <div className='flex justify-between w-full text-black text-opacity-50'>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img4} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img5} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img6} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img7} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
@@ -126,19 +127,19 @@ Curious Corner
 </div>
 </div>
 <div className='flex justify-between w-full text-black text-opacity-50'>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img4} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img4} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img5} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img6} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
@@ -175,19 +176,19 @@ Curious Corner
 </div>
 </div>
 <div className='flex justify-between w-full text-black text-opacity-50'>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img4} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img4} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img4} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img4} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
@@ -224,19 +225,19 @@ Curious Corner
 </div>
 </div>
 <div className='flex justify-between w-full text-black text-opacity-50'>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img4} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img4} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img4} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img4} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
@@ -273,19 +274,19 @@ Curious Corner
 </div>
 </div>
 <div className='flex justify-between w-full text-black text-opacity-50'>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img4} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img4} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img4} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img4} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
@@ -322,19 +323,19 @@ Curious Corner
 </div>
 </div>
 <div className='flex justify-between w-full text-black text-opacity-50'>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img4} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img4} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img4} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center gap-[11px]'>
 <img src={img4} alt="" />
 <p className='text-[12px]'>2 Flights</p>
 </div>
@@ -362,6 +363,7 @@ Curious Corner
 </Slider>
 
 
+</div>
 </div>
 </div>
   )
