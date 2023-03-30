@@ -60,13 +60,13 @@ const header = ({ children, element, bgImg }) => {
                   : "lg:bg-opacity-40"
               }  lg:bg-white lg:bg-backdrop-filter lg:backdrop-blur-md`}
             >
-              <div className="rounded-full col-start-1 col-end-4 py-3 md:py-5 lg:py-0   mb-5 lg:mb-0 lg:ml-8 flex items-center  justify-center lg:justify-start  bg-opacity-40 bg-white bg-backdrop-filter backdrop-blur-md    lg:bg-opacity-0 lg:bg-transparent  lg:backdrop-blur-none ">
+              <div className="rounded-full col-start-1 col-end[-1] lg:col-end-5 py-3 md:py-5 lg:py-0   mb-5 lg:mb-0 lg:ml-8 flex items-center  justify-center lg:justify-start  bg-opacity-40 bg-white bg-backdrop-filter backdrop-blur-md    lg:bg-opacity-0 lg:bg-transparent  lg:backdrop-blur-none ">
                 <img src={Vector} className="mr-2" dalt="" />
                 <input
                   type="text"
                   name=""
                   placeholder="Search destinations, hotels"
-                  className="bg-transparent flex-grow placeholder:text-white focus:outline-none   rounded-lg"
+                  className="bg-transparent lg:flex-grow w-[219px] placeholder:text-white focus:outline-none   rounded-lg"
                   id=""
                 />
               </div>
