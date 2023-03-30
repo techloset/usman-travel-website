@@ -7,14 +7,15 @@ import icon from "../../images/icon.png";
 import Categories from "../categories/topCategory";
 import Footer from "../footer/footer";
 import { Link } from "react-router-dom";
-const header = ({ children, element, bgImg}) => {
+const header = ({ children, element, bgImg }) => {
   console.log(children);
   return (
     <>
-      <div className="h-[1050px] md:h-[1200px] lg:h-[950px] "  >
+      <div className="h-[1050px] md:h-[1200px] lg:h-[950px] ">
         <div
-        // (180deg,  rgba(255, 255, 255, 0) ,  #FFFFFF 50%, transparent 50%)
-          style={{ backgroundImage: ` linear-gradient(to top,#FFFFFF,rgba(255, 255, 255, 0), transparent 25%),url(${bgImg}) `,}}
+          style={{
+            backgroundImage: ` linear-gradient(to top,#FFFFFF,rgba(255, 255, 255, 0), transparent 25%),url(${bgImg}) `,
+          }}
           className=" h-[500px] md:h-[900px] lg:h-[841px] w-full bg-cover  bg-no-repeat bg-center"
         >
           <nav className="h-[85px] grid grid-cols-12 grid-rows-1   justify-center items-center ">
@@ -31,34 +32,41 @@ const header = ({ children, element, bgImg}) => {
                 <li>Home</li>
               </Link>
               <Link to="/">
-              <li>Stays</li>
+                <li>Stays</li>
+              </Link>
+              <Link to="/">
+                <li>Flights</li>
+              </Link>
+              <Link to="/">
+                <li>Packages</li>
+              </Link>
 
-              </Link>
-              <Link to="/">
-              <li>Flights</li>
-              </Link>
-              <Link to="/">
-              <li>Packages</li>
-              </Link>
-             
-              
-              <li className="whitespace-nowrap">Sign Up</li>
+              <li className="whitespace-nowrap cursor-pointer">Sign Up</li>
             </ul>
           </nav>
           <header className="  grid grid-cols-11 sm:grid-cols-10  grid-rows-8 grid-flow-col max-w-full h-full">
             <div className="text-[32px] sm:text-[62px] mb-4 sm:mb-10 self-center  lg:text-[72px]  font-black col-start-2 col-end-10 lg:col-end-8 row-start-1 row-end-3   text-white ">
-              <p className="whitespace-nowrap mr-3 flex  sm:leading-[5.125rem]"> The whole world </p>{" "}
+              <p className="whitespace-nowrap mr-3 flex  sm:leading-[5.125rem]">
+                {" "}
+                The whole world{" "}
+              </p>{" "}
               <p className="sm:leading-[5.125rem]">awaits.</p>
             </div>
 
-            <div className={`rounded-2xl row-start-3  col-start-2 col-end-[-1] sm:col-end-10  flex flex-col mr-4 sm:mr-0 lg:grid grid-cols-12 grid-rows-1 lg:justify-center  lg:h-[60px] lg:items-center text-opacity-70  text-white ${window.location.pathname=='/About'?"lg:bg-opacity-10":'lg:bg-opacity-40'}  lg:bg-white lg:bg-backdrop-filter lg:backdrop-blur-md`}>
-              <div className="rounded-full col-start-1 col-end-3 py-3 md:py-5 lg:py-0   mb-5 lg:mb-0 lg:ml-8 flex items-center  justify-center lg:justify-start  bg-opacity-40 bg-white bg-backdrop-filter backdrop-blur-md    lg:bg-opacity-0 lg:bg-transparent  lg:backdrop-blur-none ">
+            <div
+              className={`rounded-2xl row-start-3  col-start-2 col-end-[-1] sm:col-end-10  flex flex-col mr-4 sm:mr-0 lg:grid grid-cols-12 grid-rows-1 lg:justify-center  lg:h-[60px] lg:items-center text-opacity-70  text-white ${
+                window.location.pathname == "/About"
+                  ? "lg:bg-opacity-10"
+                  : "lg:bg-opacity-40"
+              }  lg:bg-white lg:bg-backdrop-filter lg:backdrop-blur-md`}
+            >
+              <div className="rounded-full col-start-1 col-end-4 py-3 md:py-5 lg:py-0   mb-5 lg:mb-0 lg:ml-8 flex items-center  justify-center lg:justify-start  bg-opacity-40 bg-white bg-backdrop-filter backdrop-blur-md    lg:bg-opacity-0 lg:bg-transparent  lg:backdrop-blur-none ">
                 <img src={Vector} className="mr-2" dalt="" />
                 <input
                   type="text"
                   name=""
                   placeholder="Search destinations, hotels"
-                  className="bg-transparent placeholder:text-white focus:outline-none   rounded-lg"
+                  className="bg-transparent flex-grow placeholder:text-white focus:outline-none   rounded-lg"
                   id=""
                 />
               </div>

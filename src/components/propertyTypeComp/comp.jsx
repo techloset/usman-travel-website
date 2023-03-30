@@ -108,12 +108,12 @@ style={{ backgroundImage: `url(${img4})` }}
         </Slider>
 
     </div>
-    <div  className="mt-20 rounded-2xl bg-center grid grid-cols-12 bg-cover   text-white bg-no-repeat h-[395px] w-[90%] md:w-[80%]" style={{backgroundImage:`url(${camera})`}}>
-        <p className="text-[30px] md:text-[40px] lg:text-[56px] self-end col-start-2  col-end-12 font-bold ">
+    <div  className="mt-20 rounded-2xl bg-center bg-cover pl-5 pr-5 sm:pl-10 lg:pl-[80px] text-[#FFFFFF] bg-no-repeat h-[395px] w-[90.5%] " style={{backgroundImage:`url(${camera})`}}>
+        <p className="text-[30px] md:text-[40px] lg:text-[56px]  pt-[80px] self-end   font-bold ">
         Plan your trip with travel  expert
 
         </p>
-        <p className="text-[22px] lg:text-[32px] col-start-2  col-end-11 self-start mt-10 leading-[40px]">
+        <p className="text-[22px] lg:text-[32px]  self-start mt-10 leading-[40px]">
         Our professional advisors can craft your perfect itinerary
         </p>
     </div>

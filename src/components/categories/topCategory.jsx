@@ -75,8 +75,8 @@ export default ()=> {
     };
     return (
       <div className="text-black  md:text-white mt-12 md:mt-5 lg:mt-12 w-[100%]  lg:mb-0 !overflow-hidden ">
-        <h2 className="  font-bold text-[24px] md:text-[32px] leading-[37pxx] md:mb-10  ">Top categories</h2>
-        <div className="!w-[110%] ml-1 lg:text-opacity-70 "    >
+        <h2 className="  font-bold text-[24px] md:text-[32px] leading-[37pxx] md:mb-10 text-[#FFFFFF] ">Top categories</h2>
+        <div className="!w-[110%] ml-1 "    >
 
         <Slider {...settings}>
           
@@ -85,7 +85,7 @@ export default ()=> {
            <img src={img12} alt="" className='md:!hidden   ' />
            <Link to='/About' onClick={()=>setActive(1)}>
 
-           <p className={`text-[14px] ${active==1?'border-b-2 border-[#FFFFFF] pb-[2px]':''}`}>Beaches</p>
+           <p className={` ${active==1?'border-b-2 border-[#FFFFFF] pb-[2px] ':''} mt-3 opacity-40 `}>Beaches</p>
            </Link>
           </div>
           <div  className="!flex flex-col justify-center items-center !w-[50%] "> 
@@ -94,7 +94,7 @@ export default ()=> {
 
           <Link to='/About' onClick={()=>setActive(2)}>
 
-          <p className={`text-[14px] ${active==2?'border-b-2 border-[#FFFFFF] pb-[2px]':''}`}>Deserts</p>
+          <p className={` ${active==2?'border-b-2 border-[#FFFFFF] pb-[2px] ':''} mt-3 opacity-40 `}>Deserts</p>
            </Link >
           
           </div>
@@ -104,7 +104,7 @@ export default ()=> {
 
           <Link to='/About' onClick={()=>setActive(3)}>
 
-<p className={`text-[14px] ${active==3  && window.location.pathname=='/About'?'border-b-2 border-[#FFFFFF] pb-[2px]':''}`}>Mountains</p>
+<p className={` ${active==3  && window.location.pathname=='/About'?'border-b-2 border-[#FFFFFF] pb-[2px] ':''} mt-3 lg:opacity-40 `}>Mountains</p>
 </Link>
           </div>
           <div  className=" !flex flex-col justify-center items-center !w-[50%]">
@@ -112,7 +112,7 @@ export default ()=> {
           <img src={img15} alt="" className=' md:!hidden' />
 
           <Link to='/About' onClick={()=>setActive(4)}>
-          <p  className={`whitespace-nowrap !mx-4 text-[14px] ${active==4?'border-b-2 border-[#FFFFFF] pb-[2px]':''}`}>Iconic Cities</p>
+          <p  className={`whitespace-nowrap !mx-4  ${active==4?'border-b-2 border-[#FFFFFF] pb-[2px] ':''} mt-3 lg:opacity-40 `}>Iconic Cities</p>
           </Link>
 
           </div>
@@ -121,7 +121,7 @@ export default ()=> {
           <img src={img16} alt="" className=' md:!hidden' />
           <Link to='/About' onClick={()=>setActive(5)}>
  
- <p className={`text-[14px] ${active==5?'border-b-2 border-[#FFFFFF] pb-[2px]':''}`}>Houseboats</p>
+ <p className={` ${active==5?'border-b-2 border-[#FFFFFF] pb-[2px] ':''} mt-3 lg:opacity-40 `}>Houseboats</p>
 </Link>
 
           </div>
@@ -130,7 +130,7 @@ export default ()=> {
           <img src={img12} alt="" className=' md:!hidden' />
 
            <Link to='/About' onClick={()=>setActive(6)}>
-           <p className={`text-[14px] ${active==6?'border-b-2 border-[#FFFFFF] pb-[2px]':''}`}>Beaches</p>
+           <p className={` ${active==6?'border-b-2 border-[#FFFFFF] pb-[2px] ':''} mt-3 lg:opacity-40 `}>Beaches</p>
 </Link>
           </div>
           <div  className=" !flex flex-col justify-center items-center !w-[50%]">
@@ -139,7 +139,7 @@ export default ()=> {
 
           <Link to='/About' onClick={()=>setActive(7)}>
 
-<p className={`text-[14px] ${active==7?'border-b-2 border-[#FFFFFF] pb-[2px]':''}`}>Countryside</p>
+<p className={` ${active==7?'border-b-2 border-[#FFFFFF] pb-[2px] ':''} mt-3 lg:opacity-40 `}>Countryside</p>
 </Link>
           </div>
           <div  className=" !flex flex-col justify-center items-center !w-[50%]">
@@ -148,7 +148,7 @@ export default ()=> {
 
           <Link to='/About' onClick={()=>setActive(8)}>
 
-<p className={`text-[14px] ${active==8?'border-b-2 border-[#FFFFFF] pb-[2px]':''}`}>Camping</p>
+<p className={` ${active==8?'border-b-2 border-[#FFFFFF] pb-[2px] ':''} mt-3 lg:opacity-40 `}>Camping</p>
 </Link>
           </div>
           <div  className=" !flex flex-col justify-center items-center !w-[50%]">
@@ -157,7 +157,7 @@ export default ()=> {
 
           <Link to='/About' onClick={()=>setActive(9)}>
 
-<p className={`text-[14px] ${active==9?'border-b-2 border-[#FFFFFF] pb-[2px]':''}`}>Castles</p>
+<p className={` ${active==9?'border-b-2 border-[#FFFFFF] pb-[2px] ':''} mt-3 lg:opacity-40 `}>Castles</p>
 </Link>
           </div>
           <div  className=" !flex flex-col justify-center items-center !w-[50%]">
@@ -166,7 +166,7 @@ export default ()=> {
 
           <Link to='/About' onClick={()=>setActive(10)}>
 
-<p className={`text-[14px] ${active==10?'border-b-2 border-[#FFFFFF] pb-[2px]':''}`}>Skiing</p>
+<p className={` ${active==10?'border-b-2 border-[#FFFFFF] pb-[2px] ':''} mt-3 lg:opacity-40 `}>Skiing</p>
 </Link>
           </div>
           <div  className=" !flex flex-col justify-center items-center !w-[50%]">
@@ -175,7 +175,7 @@ export default ()=> {
 
           <Link to='/About' onClick={()=>setActive(11)}>
 
-<p className={`text-[14px] ${active==11?'border-b-2 border-[#FFFFFF] pb-[2px]':''}`}>Tropical</p>
+<p className={` ${active==11?'border-b-2 border-[#FFFFFF] pb-[2px] ':''} mt-3 lg:opacity-40 `}>Tropical</p>
 </Link>
           </div>
         </Slider>
